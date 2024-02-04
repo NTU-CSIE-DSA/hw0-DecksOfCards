@@ -1,0 +1,17 @@
+{
+  "sol.cpp": {
+    "verdict": "model_solution"
+  },
+  "tle.cpp": {
+    "verdict": "time_limit",
+    "except": {"samples": "correct", "s1": "correct", "s2": "correct"}
+  },
+  "re.cpp": {
+    "verdict": "runtime_error",
+    "except": {"samples": "correct", "s2": "correct"}
+  },
+  "re2.cpp": {
+    "verdict": "incorrect",
+    "except": {"s2": "correct"}
+  }
+}
