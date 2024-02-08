@@ -19,6 +19,15 @@ int main(int argc, char* argv[]) {
     }
     if(op == 1) {
       int idx = rnd.next(1, n);
+      if(mp.size() == 0) {
+        int type = rnd.next(0, 2);
+        if(type == 0) {
+          idx = 1;
+        }
+        else if(type == 1) {
+          idx = n;
+        }
+      }
       mp[idx]++;
       int val = rnd.next(1, 1000000000);
       cout << op << ' ' << idx << ' ' << val;

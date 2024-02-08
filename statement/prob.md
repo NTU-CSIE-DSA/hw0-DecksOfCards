@@ -11,7 +11,7 @@ The shuffle operation merges two decks of cards according to the following proce
 
 1. Move the top card from deck $i$ to the bottom of a temporary deck if deck $i$ isn't empty.
 2. Move the top card from deck $j$ to the bottom of the temporary deck if deck $j$ isn't empty.
-3. If one deck is empty, directory put the other deck to the bottom of the temporary deck. Otherwise, return to step 1.
+3. If one deck is empty, directly put the other deck to the bottom of the temporary deck. Otherwise, return to step 1.
 4. Put the temporary deck back to deck $j$
 
 After all operations, please output the cards in all decks.
@@ -42,6 +42,8 @@ For the $i$-th line, first output the number of cards in the $i$-th deck, denote
 - $1\le i, j\le N$
 - $1\le k\le 10^9$
 - Guarantee that deck $i$ isn't empty when operation "Remove"
+- Guarantee that deck $i$ isn't empty when operation "Remove"
+- Guarantee that deck $i\neq j$ when operation "Move" and "Shuffle"
 
 ### Subtask 1 (20pts)
 
