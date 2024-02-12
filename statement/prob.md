@@ -3,7 +3,7 @@
 Given $n$ decks of cards, all initially empty, we want to perform four types of operations on them:
 
 1. Add a card numbered $k$ to the top of deck $i$.
-2. Remove the card from the top of deck $i$.
+2. Remove a card from the top of deck $i$.
 3. Move all cards from deck $i$ onto deck $j$.
 4. Shuffle deck $i$ into deck $j$.
 
@@ -122,5 +122,5 @@ No other constraints
 
 ## Hint
 
-- http://140.113.150.142/problem/0/11258
+- Linked List can effectively solve this problem. If you forgot what a Linked List is, you can review it with this problem: http://140.113.150.142/problem/0/11258
 - When doing "Shuffle," directly concatenate the deck behind the temporary deck when another deck is empty.
