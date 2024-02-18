@@ -1,7 +1,7 @@
 {
-    "name": "Shuffling",
-    "code": "Shuffling",
-    "title": "Shuffling",
+    "name": "Decks of Cards",
+    "code": "Decks of Cards",
+    "title": "Decks of Cards",
     "memory_limit": 128,
     "time_limit": 1.0,
     "type": "Batch",

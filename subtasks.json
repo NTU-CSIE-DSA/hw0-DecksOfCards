@@ -8,25 +8,25 @@
 		},
 		"s1": {
 			"index": 1,
-			"score": 20,
+			"score": 10,
 			"text": "$1 \\leq N, M \\leq 1000$",
 			"validators": ["val1.cpp"]
 		},
 		"s2": {
 			"index": 1,
-			"score": 10,
+			"score": 5,
 			"text": "Only \"Add\" and \"Remove\" operations",
 			"validators": ["val2.cpp"]
     },
 		"s3": {
 			"index": 2,
-			"score": 20,
+			"score": 10,
 			"text": "Only \"Add\", \"Remove\", and \"Move\" operations",
 			"validators": ["val3.cpp"]
 		},
 		"s4": {
 			"index": 2,
-			"score": 50,
+			"score": 25,
 			"text": "no other constraints"
 		}
 	}
